@@ -20,7 +20,7 @@ body {
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
   font-size: 14px;
-  line-height: 1.7;
+  line-height: 1.71;
 }
 
 .list {
@@ -42,6 +42,7 @@ body {
 
 /* site-nav */
 .site-nav a {
+  text-decoration: none;
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 14px;
@@ -92,6 +93,7 @@ body {
 }
 
 .button {
+  font-family: Roboto, sans-serif;
   color: #ffffff;
   background-color: var(--accent-color);
   font-weight: 700;
@@ -160,9 +162,25 @@ body {
   color: #ffffff;
 }
 
+.address-mail,
+.address-tel {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.address-mail:focus,
+.address-mail:hover,
+.address-tel:focus,
+.address-tel:hover {
+  color: var(--accent-color);
+}
+
 /*Стилі portfolio.html*/
 
 .portfolio-button {
+  font-family: Roboto, sans-serif;
   cursor: pointer;
   text-decoration: none;
   color: var(--title-text-color);
