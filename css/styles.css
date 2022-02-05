@@ -43,7 +43,6 @@ body {
 /* site-nav */
 .site-nav a {
   color: var(--title-text-color);
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -95,7 +94,7 @@ body {
 .button {
   color: #ffffff;
   background-color: var(--accent-color);
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
   display: flex;
