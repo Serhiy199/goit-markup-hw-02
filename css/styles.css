@@ -164,6 +164,7 @@ body {
 /*Стилі portfolio.html*/
 
 .portfolio-button {
+  cursor: pointer;
   text-decoration: none;
   color: var(--title-text-color);
   background-color: #f5f4fa;
